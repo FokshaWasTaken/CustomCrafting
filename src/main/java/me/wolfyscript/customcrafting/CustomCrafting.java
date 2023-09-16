@@ -405,7 +405,7 @@ public class CustomCrafting extends JavaPlugin {
         pM.registerEvents(new CraftListener(this), this);
         pM.registerEvents(new FurnaceListener(this, cookingManager), this);
         pM.registerEvents(new AnvilListener(this), this);
-        pM.registerEvents(new CauldronListener(this), this);
+       // pM.registerEvents(new CauldronListener(this), this);
         pM.registerEvents(new EliteWorkbenchListener(api), this);
         pM.registerEvents(new GrindStoneListener(this), this);
         pM.registerEvents(new BrewingStandListener(api, this), this);
